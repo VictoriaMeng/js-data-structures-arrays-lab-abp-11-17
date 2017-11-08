@@ -28,4 +28,5 @@ function prependDriver() {
 function removeLastDriver() {
   const newDrivers = drivers;
   newDrivers.pop;
+  return newDrivers;
 }
